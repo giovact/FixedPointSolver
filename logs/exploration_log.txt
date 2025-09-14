@@ -142,3 +142,81 @@ Total number of runs = 60
 2025-Sep-14 16:04:11: TOTAL TIME ELAPSED: 4 seconds
 2025-Sep-14 16:04:12: filename: MultipleInit_HopfieldExample__Int_LegendreQuadrature_npoints_1000_extr_7.0_tol_1.0e-6
 2025-Sep-14 16:04:12: directory: ___TEST
+2025-Sep-14 16:04:55: *************** EXPLORATION with different initial conditions *************** 
+Model: HopfieldExample
+Fixed parameters: 
+Loop parameters: [:α, :β]
+Total number of mesh points in α = 4  Extrema = (0.04, 0.13)
+Total number of mesh points in β = 15  Extrema = (1.0, 20.0)
+Total number of runs = 60
+*****************************************************************************
+
+2025-Sep-14 16:04:59: on thread 4 Model -> HopfieldExample  --- params=  (β = 1.0, α = 0.1) --> done  in 1.378817233  seconds
+2025-Sep-14 16:04:59: on thread 3 Model -> HopfieldExample  --- params=  (β = 20.0, α = 0.1) --> done  in 1.377413721  seconds
+2025-Sep-14 16:04:59: on thread 5 Model -> HopfieldExample  --- params=  (β = 1.0727969348659003, α = 0.07) --> done  in 1.378441076  seconds
+2025-Sep-14 16:04:59: on thread 1 Model -> HopfieldExample  --- params=  (β = 1.5135135135135136, α = 0.04) --> done  in 1.377632054  seconds
+2025-Sep-14 16:04:59: on thread 7 Model -> HopfieldExample  --- params=  (β = 2.1875, α = 0.07) --> done  in 1.377816007  seconds
+2025-Sep-14 16:04:59: on thread 4 Model -> HopfieldExample  --- params=  (β = 1.0727969348659003, α = 0.13) --> done  in 0.019204693  seconds
+2025-Sep-14 16:05:00: on thread 8 Model -> HopfieldExample  --- params=  (β = 1.0, α = 0.13) --> done  in 1.378940074  seconds
+2025-Sep-14 16:05:00: on thread 6 Model -> HopfieldExample  --- params=  (β = 1.1570247933884297, α = 0.1) --> done  in 1.378490938  seconds
+2025-Sep-14 16:05:00: on thread 2 Model -> HopfieldExample  --- params=  (β = 1.1570247933884297, α = 0.04) --> done  in 0.068706578  seconds
+2025-Sep-14 16:05:00: on thread 3 Model -> HopfieldExample  --- params=  (β = 3.1111111111111107, α = 0.13) --> done  in 0.017449526  seconds
+2025-Sep-14 16:05:00: on thread 1 Model -> HopfieldExample  --- params=  (β = 5.384615384615384, α = 0.04) --> done  in 0.002881734  seconds
+2025-Sep-14 16:05:00: on thread 1 Model -> HopfieldExample  --- params=  (β = 20.0, α = 0.07) --> done  in 0.00194312  seconds
+2025-Sep-14 16:05:00: on thread 1 Model -> HopfieldExample  --- params=  (β = 8.484848484848484, α = 0.07) --> done  in 0.002764332  seconds
+2025-Sep-14 16:05:00: on thread 1 Model -> HopfieldExample  --- params=  (β = 8.484848484848484, α = 0.04) --> done  in 0.001726286  seconds
+2025-Sep-14 16:05:00: on thread 7 Model -> HopfieldExample  --- params=  (β = 8.484848484848484, α = 0.13) --> done  in 0.014374489  seconds
+2025-Sep-14 16:05:00: on thread 1 Model -> HopfieldExample  --- params=  (β = 20.0, α = 0.13) --> done  in 0.00592451  seconds
+2025-Sep-14 16:05:00: on thread 7 Model -> HopfieldExample  --- params=  (β = 3.1111111111111107, α = 0.04) --> done  in 0.005633616  seconds
+2025-Sep-14 16:05:00: on thread 3 Model -> HopfieldExample  --- params=  (β = 1.9047619047619047, α = 0.13) --> done  in 0.018628354  seconds
+2025-Sep-14 16:05:00: on thread 5 Model -> HopfieldExample  --- params=  (β = 2.5688073394495414, α = 0.13) --> done  in 0.023327785  seconds
+2025-Sep-14 16:05:00: on thread 2 Model -> HopfieldExample  --- params=  (β = 1.6867469879518073, α = 0.13) --> done  in 0.029040393  seconds
+2025-Sep-14 16:05:00: on thread 6 Model -> HopfieldExample  --- params=  (β = 1.2556053811659194, α = 0.13) --> done  in 0.02950565  seconds
+2025-Sep-14 16:05:00: on thread 8 Model -> HopfieldExample  --- params=  (β = 1.3725490196078431, α = 0.1) --> done  in 0.032616867  seconds
+2025-Sep-14 16:05:00: on thread 4 Model -> HopfieldExample  --- params=  (β = 2.1875, α = 0.1) --> done  in 0.0334254  seconds
+2025-Sep-14 16:05:00: on thread 6 Model -> HopfieldExample  --- params=  (β = 8.484848484848484, α = 0.1) --> done  in 0.00660201  seconds
+2025-Sep-14 16:05:00: on thread 3 Model -> HopfieldExample  --- params=  (β = 3.943661971830986, α = 0.13) --> done  in 0.016549563  seconds
+2025-Sep-14 16:05:00: on thread 8 Model -> HopfieldExample  --- params=  (β = 5.384615384615384, α = 0.1) --> done  in 0.009070269  seconds
+2025-Sep-14 16:05:00: on thread 1 Model -> HopfieldExample  --- params=  (β = 1.0, α = 0.04) --> done  in 0.028108288  seconds
+2025-Sep-14 16:05:00: on thread 5 Model -> HopfieldExample  --- params=  (β = 1.3725490196078431, α = 0.13) --> done  in 0.020631374  seconds
+2025-Sep-14 16:05:00: on thread 1 Model -> HopfieldExample  --- params=  (β = 3.943661971830986, α = 0.04) --> done  in 0.004137793  seconds
+2025-Sep-14 16:05:00: on thread 7 Model -> HopfieldExample  --- params=  (β = 1.0727969348659003, α = 0.04) --> done  in 0.031244726  seconds
+2025-Sep-14 16:05:00: on thread 2 Model -> HopfieldExample  --- params=  (β = 5.384615384615384, α = 0.13) --> done  in 0.025484629  seconds
+2025-Sep-14 16:05:00: on thread 2 Model -> HopfieldExample  --- params=  (β = 3.943661971830986, α = 0.07) --> done  in 0.004935255  seconds
+2025-Sep-14 16:05:00: on thread 6 Model -> HopfieldExample  --- params=  (β = 1.6867469879518073, α = 0.1) --> done  in 0.023513739  seconds
+2025-Sep-14 16:05:00: on thread 8 Model -> HopfieldExample  --- params=  (β = 1.1570247933884297, α = 0.13) --> done  in 0.019932684  seconds
+2025-Sep-14 16:05:00: on thread 4 Model -> HopfieldExample  --- params=  (β = 1.6867469879518073, α = 0.07) --> done  in 0.028422363  seconds
+2025-Sep-14 16:05:00: on thread 3 Model -> HopfieldExample  --- params=  (β = 1.5135135135135136, α = 0.07) --> done  in 0.024780988  seconds
+2025-Sep-14 16:05:00: on thread 5 Model -> HopfieldExample  --- params=  (β = 1.0727969348659003, α = 0.1) --> done  in 0.021232804  seconds
+2025-Sep-14 16:05:00: on thread 6 Model -> HopfieldExample  --- params=  (β = 2.5688073394495414, α = 0.07) --> done  in 0.009292352  seconds
+2025-Sep-14 16:05:00: on thread 2 Model -> HopfieldExample  --- params=  (β = 1.9047619047619047, α = 0.04) --> done  in 0.00982226  seconds
+2025-Sep-14 16:05:00: on thread 7 Model -> HopfieldExample  --- params=  (β = 1.3725490196078431, α = 0.07) --> done  in 0.023801433  seconds
+2025-Sep-14 16:05:00: on thread 7 Model -> HopfieldExample  --- params=  (β = 20.0, α = 0.04) --> done  in 0.000465897  seconds
+2025-Sep-14 16:05:00: on thread 6 Model -> HopfieldExample  --- params=  (β = 3.1111111111111107, α = 0.07) --> done  in 0.006473079  seconds
+2025-Sep-14 16:05:00: on thread 2 Model -> HopfieldExample  --- params=  (β = 3.943661971830986, α = 0.1) --> done  in 0.008578941  seconds
+2025-Sep-14 16:05:00: on thread 6 Model -> HopfieldExample  --- params=  (β = 5.384615384615384, α = 0.07) --> done  in 0.00393879  seconds
+2025-Sep-14 16:05:00: on thread 3 Model -> HopfieldExample  --- params=  (β = 1.9047619047619047, α = 0.1) --> done  in 0.021249784  seconds
+2025-Sep-14 16:05:00: on thread 8 Model -> HopfieldExample  --- params=  (β = 2.5688073394495414, α = 0.1) --> done  in 0.022846338  seconds
+2025-Sep-14 16:05:00: on thread 5 Model -> HopfieldExample  --- params=  (β = 1.5135135135135136, α = 0.1) --> done  in 0.020925499  seconds
+2025-Sep-14 16:05:00: on thread 8 Model -> HopfieldExample  --- params=  (β = 1.5135135135135136, α = 0.13) --> done  in 0.0189861  seconds
+2025-Sep-14 16:05:00: on thread 7 Model -> HopfieldExample  --- params=  (β = 1.2556053811659194, α = 0.04) --> done  in 0.029138095  seconds
+2025-Sep-14 16:05:00: on thread 5 Model -> HopfieldExample  --- params=  (β = 2.1875, α = 0.13) --> done  in 0.0190386  seconds
+2025-Sep-14 16:05:00: on thread 3 Model -> HopfieldExample  --- params=  (β = 1.2556053811659194, α = 0.1) --> done  in 0.021241984  seconds
+2025-Sep-14 16:05:00: on thread 2 Model -> HopfieldExample  --- params=  (β = 1.3725490196078431, α = 0.04) --> done  in 0.030056788  seconds
+2025-Sep-14 16:05:00: on thread 4 Model -> HopfieldExample  --- params=  (β = 1.6867469879518073, α = 0.04) --> done  in 0.062881479  seconds
+2025-Sep-14 16:05:00: on thread 8 Model -> HopfieldExample  --- params=  (β = 1.2556053811659194, α = 0.07) --> done  in 0.02361387  seconds
+2025-Sep-14 16:05:00: on thread 4 Model -> HopfieldExample  --- params=  (β = 2.5688073394495414, α = 0.04) --> done  in 0.005557555  seconds
+2025-Sep-14 16:05:00: on thread 5 Model -> HopfieldExample  --- params=  (β = 1.9047619047619047, α = 0.07) --> done  in 0.026046937  seconds
+2025-Sep-14 16:05:00: on thread 2 Model -> HopfieldExample  --- params=  (β = 1.1570247933884297, α = 0.07) --> done  in 0.023395627  seconds
+2025-Sep-14 16:05:00: on thread 8 Model -> HopfieldExample  --- params=  (β = 1.0, α = 0.07) --> done  in 0.023464008  seconds
+2025-Sep-14 16:05:00: on thread 4 Model -> HopfieldExample  --- params=  (β = 3.1111111111111107, α = 0.1) --> done  in 0.033832446  seconds
+2025-Sep-14 16:05:00: on thread 4 Model -> HopfieldExample  --- params=  (β = 2.1875, α = 0.04) --> done  in 0.006939946  seconds
+2025-Sep-14 16:05:00: TOTAL TIME ELAPSED: 4 seconds
+2025-Sep-14 16:05:01: filename: MultipleInit_HopfieldExample__Int_LegendreQuadrature_npoints_1000_extr_7.0_tol_1.0e-6
+2025-Sep-14 16:05:01: directory: ___TEST
+2025-Sep-14 16:05:06: 
+
+
+
+
+

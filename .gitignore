@@ -1,0 +1,8 @@
+res/
+notebooks/
+*.zip
+.vscode/
+logs/
+___TEST/
+_EXAMPLES/
+!test_scripts.sh
