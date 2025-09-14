@@ -20,7 +20,7 @@ In the end it's just a library to try to help make things easier and faster for 
 ## Installation
 
 The package is not yet registered. To use it, clone the repository locally:
-> git clone https://github.com/giovact/FPSolver
+> git clone https://github.com/giovact/FixedPointSolver
 
 
 ## Basic Usage
