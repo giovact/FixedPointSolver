@@ -8,7 +8,7 @@ It's a basic library to solve systems of self-consistent equations, the usual pr
 The typical situation in spin-glass theories involves the solution of coupled integral equations, where the integration variables are reminiscent of the quenched noise.
 
 ### Why?
-In the end it's just a simple library to try to help make things easier and faster for a small community of people. 
+It's a simple library meant to make things easier and faster when needing to derive phase diagrams numerically, hopefully it can be useful for others the same way it was for the creator. 
 
 ### Features
 1. modular structure: a new model and its self-consistent equations can be added as a single julia file in the folder `src/models/` and all the built-in functions can be used
