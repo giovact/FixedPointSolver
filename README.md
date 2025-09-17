@@ -13,9 +13,9 @@ In the end it's just a library to try to help make things easier and faster for 
 ### Features
 1. modular structure: a new model and its self-consistent equations can be added as a single julia file in the folder `src/models/` and all the built-in functions can be used
 2. parallelized implementation (multi-thread) of custom scripts to 
-   - explore a 2-dimensional space in the control parameters with different initial conditions 
-   - parallel scan solution by following previous fixed points
-   - computation of critical lines in 2-d planes 
+   i)   explore a 2-dimensional space in the control parameters with different initial conditions 
+   ii)  parallel scan solution by following previous fixed points
+   iii) computation of critical lines in 2-d planes 
 
 ## Installation
 
@@ -49,11 +49,11 @@ A detailed guide on how to define your custom model is given in `src/models/exam
 
 The file `src/models/HopfieldExample.jl` contains an example file containing the self-consistent equations defining the MF theory for the Hopfield model of associative memory.
 
+Once a model is created in the file MyModel.jl, include it in src/model_list.jl
 
 ## Parallelized scripts
 In the folder `scripts/` there are 3 files that perform different parallel operations on multi-threads
 
 Remember to launch any one of the above scripts with option `julia -t $nthreads ` or `julia -t auto ` when using either one of these for faster computation.  
 
-## TODO
-1. Fix logarithms for numerical stability (e.g. `log(cosh(x))` to be changed in `log2cosh(x)` or `log(Herf(x))` to be changed in `logHerf(x)`)
+Documentation is still lacking. If interested in using the repository, contact me at gcatania@ucm.es
