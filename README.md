@@ -4,11 +4,11 @@ Iterative fixed-point solver for integral self-consistency systems of equations
 
 
 #### General description
-It's a basic library to solve systems of self-consistent equations, the usual problem in computing equilibrium phase diagrams for Mean-Field theories in the thermodynamic limit. In statistical physics, the equilibrium behavior of a system in the thermodynamic limit is determined by an extremization condition (through a saddle-point integration) of a free energy function depending on a finite set of order parameters. Thermodynamics is determined by (local) minima of this object. Typical situation in spin-glass theories there are integrals involved, reminiscent of the quenched noise. 
+It's a basic library to solve systems of self-consistent equations, the usual problem in computing equilibrium phase diagrams for Mean-Field theories in the thermodynamic limit. In statistical physics, the equilibrium behavior of a system in the thermodynamic limit is determined by an extremization condition (through a saddle-point integration) of a free energy function depending on a finite set of order parameters. Thermodynamics is determined by (local) minima of this object. 
+The typical situation in spin-glass theories involves the solution of coupled integral equations, where the integration variables are reminiscent of the quenched noise.
 
-In the end it's just a library to try to help make things easier and faster for a small community of people. 
-
-- Is it easy to customize? YES
+### Why?
+In the end it's just a simple library to try to help make things easier and faster for a small community of people. 
 
 ### Features
 1. modular structure: a new model and its self-consistent equations can be added as a single julia file in the folder `src/models/` and all the built-in functions can be used
@@ -22,6 +22,7 @@ In the end it's just a library to try to help make things easier and faster for 
 The package is not yet registered. To use it, clone the repository locally:
 > git clone https://github.com/giovact/FixedPointSolver
 
+The word ``module'' afterwards is still mis-used in the julia sense. For the moment, include the library using include("src/FixedPointSolver.jl") directly into Main.
 
 ## Basic Usage
 The bulk abstract type of this module is `FPModel`. 
