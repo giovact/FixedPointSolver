@@ -1,6 +1,6 @@
 # FixedPointSolver
 
-Iterative fixed-point solver for integral self-consistency systems of equations
+Iterative fixed-point solver for integral self-consistency systems of equations (in Julia because it's cooler)
 
 
 #### General description
